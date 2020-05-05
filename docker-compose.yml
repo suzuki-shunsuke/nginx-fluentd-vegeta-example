@@ -12,7 +12,7 @@ services:
     depends_on:
     - fluentd
   fluentd:
-    image: fluent/fluentd:v0.14.14-debian
+    image: fluent/fluentd:v0.14.25-debian
     ports:
     - "24224:24224"
     - "24224:24224/udp"
